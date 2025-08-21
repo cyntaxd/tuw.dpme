@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUW™ Info Storage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="wrench.jpg" />
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="topnav-title">
+        <p>THE USEFUL WEBSITE™</p>
+      </div>
+      <div class="topnav-links">
+        <a href="index.html" class="topnav-link">Home</a>
+        <a href="index.html#application" class="topnav-link">Applications</a>
+        <a href="about.html" class="topnav-link">About</a>
+      </div>
+    </div>
+    <div class="header info-storage-header main">
+      <h1>Confidential Information Storage</h1>
+    </div>
+    <div class="content info-storage-content">
+      <br>
+      <p>
+        <strong>This application was made with convience in mind.
+          With this application, you no longer need to worry about forgetting
+          your credit card, your SSN, your banking info, as you can just scroll
+          through our database, past other people's info, and look at yours!</strong>
+      </p>
+      <p>
+        <strong><em>And if you're worrying about your data being stolen, don't worry
+            about it! We send your requests over to our home-server unencrypted
+            through the outdated and very likely to be unsecure HyperText
+            Transfer Protocol!</em></strong>
+      </p>
+      <br /><br />
+      <form class="confidential-info" onsubmit="return confirmInfo();">
+        <fieldset class="infoFS">
+          <legend><strong>Input Your Confidential Data Here!</strong></legend>
+          <span class="info-input">
+          <label for="SSN">Social Security Number:</label>
+          <input id="SSN" type="password" placeholder="SSN"/>
+          <br/>
+          <label for="BANKACCOUNT">Bank Account Number:</label>
+          <input id="BANKACCOUNT" type="password" placeholder="Account Number"/>
+          <br/>
+          <label for="BANKACCOUNTPASS">Bank Account Password:</label>
+          <input id="BANKACCOUNTPASS" type="password" placeholder="Password"/>
+          <br/>
+          <label for="CREDITCARD">Credit Card Info:</label>
+          <input id="CREDITCARD-NUM" type="password" placeholder="Card Number"/>
+          <input id="CREDITCARD-SC" type="password" placeholder="Security Code"/>
+          <input id="CREDITCARD-EXP" type="password" placeholder="Expiration Date"/>
+          <br/><br/>
+          <label for="OTHERINFO">Other Info You Want to Save:</label><br/>
+          <textarea id="OTHERINFO" placeholder="Additional Info"></textarea>
+          <br/><br/>
+        </span>
+        <span class="form-end">
+          <input type="checkbox" id="notarobot"/>
+          <label for="notarobot"><em>I'm not a robot or AI.</em></label>
+          <br><br><br>
+          <button type="submit">Submit Info</button>
+        </span>
+        </fieldset>
+      </form>
+      <br>
+      <div id="root">A confirmation message will show up here...</div>
+    </div>
+    <div class="footer">
+      <h6>THE USEFUL WEBSITE™, COPYRIGHT 2025, ALL RIGHTS RESERVED.</h6>
+    </div>
+    <script src="infostorage.js"></script>
+  </body>
+</html>

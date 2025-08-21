@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TUW™ Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="wrench.jpg">
+    </head>
+    <body>
+        <div class="topnav">
+            <div class="topnav-title">
+                <p>THE USEFUL WEBSITE™</p>
+            </div>
+            <div class="topnav-links">
+                <a href="index.html" class="topnav-link">Home</a>
+                <a href="index.html.#application" class="topnav-link">Applications</a>
+                <a href="about.html" class="topnav-link">About</a>
+            </div>
+        </div>
+        <div class="header calc-header main">
+            <h1>Calculator</h1>
+        </div>
+        <br>
+        <br>
+        <div class="content calc-content">
+            <form>
+                <fieldset>
+                    <legend>The Calculator</legend>
+                    <br>
+                    <input type="number" id="numberOne" placeholder="Input here..." required>
+                    <select name="Operations" id="op" placeholder="Select" selected="Select" required>
+                        <option value="" selected disabled hidden>Select</option>
+                        <option id="multiplication">x</option>
+                        <option id="division">÷</option>
+                        <option id="addition">+</option>
+                        <option id="subtraction">-</option>
+                    </select>
+                    <input type="number" id="numberTwo" placeholder="Input here..." required>
+                    <button id="calc-button">Calculate</button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>Solution:</p>
+                    <br>
+                    <p id="root">(the answer will show up here...)</p>
+                </fieldset>
+                
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="footer">
+            <h6>THE USEFUL WEBSITE™, COPYRIGHT 2025, ALL RIGHTS RESERVED. DO NOT COPY.</h6>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>
