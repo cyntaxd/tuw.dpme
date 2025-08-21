@@ -1,0 +1,249 @@
+body {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    background-color: palegoldenrod;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 98.5%;   
+    color: black;
+}
+  
+.topnav-links {
+    color: #f2f2f2;
+    text-align: right;
+}
+
+.topnav-link {
+    padding: 0 10px 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.topnav-link:hover {
+    text-decoration: underline solid;
+    text-shadow: 0 0 0.1px black; 
+    /* ^^^ adds a thin shadow to text to give illusion of bold; since regular bold moves other links*/
+}
+  
+.header {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FF964F;
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    padding-top: 75px;
+    border-radius: 0 0 5px 5px;
+}
+
+.content {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    margin: 45px;
+    border: dotted darkgoldenrod;
+    background-color: #ffcd90;
+    font-weight: bold;
+    font-size: 115%;
+    border-radius: 5px;
+}
+
+section {
+    border: solid palegoldenrod;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 25% 0 25%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.app-icon-calc {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.app-icon-long {
+    width: 250px;
+    height: 175px;
+    border-radius: 5px;
+}
+
+.app-launch {
+    width: 200px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffcd90;
+    border: solid #FF964F;
+    border-radius: 5px;
+}
+
+.app-launch:hover {
+    font-weight: bold;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.scroll-down {
+    text-align: center;
+    margin: 0 450px 0 450px;
+}
+
+.scroll-down img {
+    width: 12%;
+    height: 12%;
+}
+
+.scroll-down p {
+    font-size: xx-large;
+}
+
+.other-info {
+    width: 25%;
+    height: 100px;
+}
+
+.confidential-info {
+    text-align: left;
+    display: flex;
+}
+
+fieldset {
+    margin-left: 850px;
+    width: 750px;
+    height: 500px;
+}
+
+#OTHERINFO {
+    width: 25%;
+    height: 100px;
+}
+
+.infoFS {
+    padding: 50px;
+    width: 26.65%;
+}
+
+.infoFS input {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.info-input {
+    line-height: 27px;
+}
+
+.form-end {
+    line-height: normal;
+    display: grid;
+}
+
+.form-end button {
+    width: 650px;
+    height: 35px;
+}
+
+.form-end button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.secondButton {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+}
+
+.truthList {
+    text-align: left;
+    margin: 50px;
+}
+
+.truthList input {
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.truthList button {
+    width: 150px;
+    height: 30px;
+}
+
+/* Remove or comment out any global fieldset styling that conflicts */
+.container {
+    margin-left: 20%;
+    width: 1500px;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container fieldset {
+    margin-left: 0;
+    width: 55%; /* Adjust this percentage as needed */
+    height: auto;
+    box-sizing: border-box;
+}
+
+.options {
+    display: flex;
+}
+
+.container input {
+    width: 550px;
+    height: 35px;
+}
+
+.container button {
+    width: 125px;
+    height: 40px;
+}
+
+#stcInput {
+    width: 750px;
+    height: 350px;
+}
+
+#convertButton {
+    height: 35px;
+    width: 750px;
+}
